@@ -16,15 +16,16 @@ A proactive security tool designed to monitor a specific sensitive file for unau
    cd Automated-File-Encryption-Integrity-Monitor
 
    Set up a Virtual Environment:
-
-Bash
-python -m venv .venv
+   
+   Bash 
+   python -m venv .venv
+   
 # Activate on Windows:
-.venv\Scripts\activate
-Install Dependencies:
+   .venv\Scripts\activate
+   Install Dependencies:
 
-Bash
-pip install -r requirements.txt
+   Bash
+   pip install -r requirements.txt
  Usage
 1. Configure the Target
 Update the TARGET_FILE path in main.py and unlock.py to point to the file you wish to monitor.
