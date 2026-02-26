@@ -2,13 +2,13 @@
 
 A proactive security tool designed to monitor a specific sensitive file for unauthorized changes. It uses **SHA-256** hashing to detect modifications and automatically secures the file using **AES-256 (Fernet)** encryption if tampering is detected.
 
-## 🚀 Features
+## Features
 * **Real-time Monitoring:** Continuously checks file integrity every 5 seconds.
 * **Cryptographic Baselines:** Uses SHA-256 to create a unique digital fingerprint of the target file.
 * **Automated Incident Response:** Instantly encrypts the file upon detection of unauthorized changes to prevent data exfiltration or further tampering.
 * **Recovery Logic:** Includes a dedicated decryption script to restore the file once the threat is mitigated.
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -25,7 +25,7 @@ Install Dependencies:
 
 Bash
 pip install -r requirements.txt
-📋 Usage
+ Usage
 1. Configure the Target
 Update the TARGET_FILE path in main.py and unlock.py to point to the file you wish to monitor.
 
